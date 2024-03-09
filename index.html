@@ -1,27 +1,485 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/svg+xml" href="./images/basma-img.ico" />
 
-<head>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
-<meta charset="UTF-8">
-<meta http-equiv=“Pragma” content=”no-cache”>
-<meta http-equiv=“Expires” content=”-1″>
-<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
-<!-- CSS Stylesheets -->
-<link rel="stylesheet" href="css/master.css">
+    <meta http-equiv="“Pragma”" content="”no-cache”" />
+    <meta http-equiv="“Expires”" content="”-1″" />
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”" />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
 
-<title>Portfolio Project</title>
-</head>
+    <title>Basma A. Elmasry</title>
+  </head>
 
-<body>
+  <body data-new-gr-c-s-check-loaded="14.1160.0" data-gr-ext-installed>
+    <div id="fusion-text-generator" data-v-app>
+      <!---->
+    </div>
 
-   <h1>Portfolio Project</h1>
+    <a name="top-of-document"></a>
 
-</body>
+    <!-- floating scroll to top navigator -->
 
-<footer>
-    <p class="copyright-text">© Copyright 2023 _______ </p>
-</footer>
+    <div class="to-top-navigator">
+      <div
+        class="to-top-cloud"
+        aria-label="Ascend to the top!"
+        aria-hidden="true"
+      >
+        <a
+          href="javascript:scrollToAnchor('top-of-document')"
+          data-toggle="tooltip"
+          data-placement="left"
+          title=""
+          onclick="javascript:toolTipReset()"
+          data-original-title="Scroll to the top"
+          ><i class="fas fa-plane-departure"></i
+        ></a>
+      </div>
 
-<!-- Our codes -->
-<script src="js/main.js"></script>
+      <div>
+        <a
+          href="javascript:scrollToPreviousSection()"
+          title="Scroll to previous section"
+        >
+          <span
+            class="tcon-indicator"
+            aria-label="Scroll to previous section outside of viewport"
+            aria-hidden="true"
+            data-toggle="tooltip"
+            data-placement="left"
+            title=""
+            onclick="javascript:toolTipReset()"
+            data-original-title="Scroll to previous section outside of viewport"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              class="tcon-svgchevron"
+              viewBox="0 0 30 58"
+            >
+              <path class="a1" d="M3,13l13-10l13,10"></path>
+              <path class="a2" d="M3,33l13-10l13,10"></path>
+              <path class="a3" d="M3,53l13-10l13,10"></path>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- floating section indicators -->
+
+    <div class="section-indicators-block">
+      <div class="section-indicator">
+        <a
+          id="bio-section-indicator"
+          href="#"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Bio Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Bio"
+          ><i class="fas fa-star"></i
+        ></a>
+      </div>
+
+      <div class="section-indicator">
+        <a
+          id="portfolio-section-indicator"
+          href="javascript:scrollToAnchor('portfolio');"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Portfolio Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Portfolio"
+          ><i class="fas fa-star"></i
+        ></a>
+      </div>
+
+      <div class="section-indicator">
+        <a
+          id="skill-summary-section-indicator"
+          href="javascript:scrollToAnchor('skill-summary');"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Skill Summary Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Skill Summary"
+          ><i class="far fa-star"></i
+        ></a>
+      </div>
+
+      <div class="section-indicator">
+        <a
+          id="career-highlights-section-indicator"
+          href="javascript:scrollToAnchor('career-highlights');"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Career Highlights Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Career Highlights"
+          ><i class="far fa-star"></i
+        ></a>
+      </div>
+
+      <div class="section-indicator">
+        <a
+          id="education-section-indicator"
+          href="javascript:scrollToAnchor('education');"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Education Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Education"
+          ><i class="far fa-star"></i
+        ></a>
+      </div>
+
+      <div class="section-indicator">
+        <a
+          id="contact-section-indicator"
+          href="javascript:scrollToAnchor('contact');"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Jump to Contact Section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Jump to Contact"
+          ><i class="far fa-star"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- floating scroll down inviter -->
+
+    <div class="scroll-down-navigator">
+      <div>
+        <a
+          href="javascript:scrollToNextSection()"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Scroll to next section"
+          onclick="javascript:toolTipReset()"
+          data-original-title="Scroll to next section outside of viewport"
+        >
+          <span
+            class="tcon-indicator"
+            aria-label="Scroll to next section outside of viewport"
+            aria-hidden="true"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              class="tcon-svgchevron"
+              viewBox="0 0 30 58"
+            >
+              <path class="a3" d="M3,3l13,10l13-10"></path>
+              <path class="a2" d="M3,23l13,10l13-10"></path>
+              <path class="a1" d="M3,43l13,10l13-10"></path>
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <div
+        class="scroll-down-plane"
+        aria-label="Descend to the bottom!"
+        aria-hidden="true"
+      >
+        <a
+          href="javascript:scrollToAnchor('bottom-of-document')"
+          data-toggle="tooltip"
+          data-placement="left"
+          title=""
+          onclick="javascript:toolTipReset()"
+          data-original-title="Scroll to the bottom"
+          ><i class="fas fa-plane-arrival"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- end of navigation bar -->
+
+    <a name="bio"></a>
+    <div id="bio" class="container section-visual-boundry">
+      <div class="row justify-content-center">
+        <div class="hero-div col-8 col-sm-4 col-md-4">
+          <img class="hero" src="images/basma-img.jpeg" alt="portrait" />
+        </div>
+
+        <div class="col-12 col-sm-8 col-md-8">
+          <p class="page-title">Basma A. Elmasry</p>
+          <p class="page-subtitle">Front-end Developer</p>
+          <p class="bio-block">
+            I am a Front-end Developer from Egypt. After I graduated from the
+            faculty of engineering with a high Post-graduate degree in computer
+            science, I have been working on some projects in the web development
+            field that bring the world together. Here's a portfolio of some of
+            my work. I hope you enjoy them.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <a name="portfolio"></a>
+    <p id="portfolio" class="section-heading section-visual-boundry">
+      Portfolio
+    </p>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col bm-2">
+        <div class="card h-100">
+          <img
+            src="images/Screenshot 2024-03-09 195439.png"
+            class="card-img-top"
+            alt="EurOrbit"
+          />
+          <div class="card-body">
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">
+              Take a look at my Courses and Certificates in the front-end
+              development field on LinkedIn
+            </p>
+            <a
+              href="https://www.linkedin.com/in/basma-el-masry-63bb80221/?locale=en_US"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+              >Take a Closer Look</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col bm-2">
+        <div class="card h-100">
+          <img
+            src="images/Screenshot 2024-03-08 130147.png"
+            class="card-img-top"
+            alt="Illustrator Artwork"
+          />
+          <div class="card-body">
+            <h5 class="card-title">GitHub</h5>
+            <p class="card-text">Take a look at my other projects on GitHub</p>
+            <a
+              href="https://github.com/EngBasmaa"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+              >Go to my GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="col bm-2">
+        <div class="card h-100">
+          <img src="images/To-Do List.png" class="card-img-top" alt="GitHub" />
+          <div class="card-body">
+            <h5 class="card-title">To-Do List</h5>
+            <p class="card-text">
+              A to-do list web page involves structuring the page with HTML,
+              styling it with CSS, and adding interactive functionalities using
+              JavaScript.
+            </p>
+            <a href="/" target="_blank" class="btn btn-primary">Try It Out</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col bm-2">
+        <div class="card h-100">
+          <img
+            src="images/product store.png"
+            class="card-img-top"
+            alt="GitHub"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Product Store</h5>
+            <p class="card-text">
+              A a product store web page involves designing a platform where
+              users can browse, view, and purchase products online. It is a
+              product store web page using HTML, CSS, and JavaScript
+            </p>
+            <a href="/" target="_blank" class="btn btn-primary">Try It Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <a name="skill-summary"></a>
+    <p id="skill-summary" class="section-heading section-visual-boundry">
+      Skill Summary
+    </p>
+
+    <p><strong>Languages</strong></p>
+
+    <p
+      data-toggle="tooltip"
+      data-placement="bottom"
+      title=""
+      onclick="javascript:toolTipReset()"
+      data-original-title="These tags tell you what technologies I use"
+    >
+      <span class="keyword-magnet">HTML</span>
+      <span class="keyword-magnet">CSS</span>
+      <span class="keyword-magnet">JavaScript</span>
+      <span class="keyword-magnet">C</span>
+      <span class="keyword-magnet">Git</span>
+      <span class="keyword-magnet">Linux</span>
+      <span class="keyword-magnet">Shell</span>
+      <span class="keyword-magnet">JSX</span>
+      <span class="keyword-magnet">Vi/Vim</span>
+      <span class="keyword-magnet">TypeScript</span>
+      <span class="keyword-magnet">Python</span>
+    </p>
+
+    <p>Juniour Front-end Developer</p>
+    <p>React JS Front-end Developer</p>
+    <p>Angular JS Front-end Developer</p>
+    <p>Beginner Software Developer</p>
+
+    <p><strong>Frameworks</strong></p>
+    <p
+      data-toggle="tooltip"
+      data-placement="bottom"
+      title=""
+      onclick="javascript:toolTipReset()"
+      data-original-title="These tags tell you what technologies I use"
+    >
+      <span class="keyword-magnet">React</span>
+      <span class="keyword-magnet">Angular</span>
+      <span class="keyword-magnet">BootStrap</span>
+      <span class="keyword-magnet">Wordpress</span>
+    </p>
+
+    <hr />
+
+    <a name="education"></a>
+    <p id="education" class="section-heading section-visual-boundry">
+      Education
+    </p>
+    <p class="section-subheading">
+      Faculty of Engineering, Menoufia University, Egypt
+    </p>
+    <p class="section-small-heading">
+      Bachelor's degree of Electricity and Computer Programming
+    </p>
+    <p class="section-small-heading">
+      High Post-graduate degree of Computer Science
+    </p>
+    <p>
+      <a
+        href="https://www.menofia.edu.eg/Home/en"
+        target="_blank"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title=""
+        rel="noopener"
+        onclick="javascript:toolTipReset()"
+        data-original-title="Tap here to visit my university in beautiful Egypt"
+        >Visit Menoufia University</a
+      >
+    </p>
+    <p>
+      <a
+        href="http://www.menofia.edu.eg/eng/Home/en"
+        target="_blank"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title=""
+        rel="noopener"
+        onclick="javascript:toolTipReset()"
+        data-original-title="Tap here to visit my faculty in beautiful Egypt"
+        >Visit Faculty of Engineering</a
+      >
+    </p>
+    <hr />
+
+    <a name="contact"></a>
+    <p id="contact" class="section-heading section-visual-boundry">Contact</p>
+
+    <p>
+      Email:
+      <a
+        href="basmaelmasry263@gmail.com"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title=""
+        onclick="javascript:toolTipReset()"
+        data-original-title="Tap here to email me"
+        >basmaelmasry263@gmail.com</a
+      >
+    </p>
+    <p>
+      LinkedIn:
+      <a
+        href="https://www.linkedin.com/in/basma-el-masry-63bb80221"
+        target="_blank"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title=""
+        rel="noopener"
+        onclick="javascript:toolTipReset()"
+        data-original-title="Tap here to visit my LinkedIn page"
+        >Basma Elmasry</a
+      >
+    </p>
+
+    <hr />
+
+    <!-- <img class="hero" src="images/footer_banner.jpg" alt="banner" /> -->
+
+    <a name="bottom-of-document"></a>
+
+    <!-- JQuery Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Our codes -->
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
+
+  <footer>
+    <p class="copyright-text">© Copyright 2024 Basma A. Elmasry</p>
+  </footer>
+
+  <!-- Our codes -->
+  <script src="js/main.js"></script>
+</html>

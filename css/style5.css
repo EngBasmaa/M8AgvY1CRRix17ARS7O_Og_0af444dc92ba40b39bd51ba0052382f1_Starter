@@ -1,0 +1,59 @@
+.feedback-icon[data-v-667886e4] {
+  stroke: #2fe0ff;
+}
+.action-icons[data-v-667886e4] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 0.9em;
+  cursor: pointer;
+  width: 3em;
+  -moz-column-gap: 0.5em;
+  column-gap: 0.5em;
+  margin-left: auto;
+  margin-bottom: -0.7em;
+  fill: #fff;
+  position: relative;
+}
+.hidden[data-v-667886e4] {
+  display: none;
+}
+.profile-image[data-v-667886e4] {
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+.ai-icon[data-v-667886e4] {
+  margin: auto;
+  padding: 0.4em;
+}
+.ai-container[data-v-667886e4] {
+  justify-content: flex-end;
+  color: #2fe0ff;
+}
+.message-container[data-v-667886e4] {
+  display: grid;
+  grid-template-columns: 2.6em 1fr;
+  grid-gap: 10px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+.message-text[data-v-667886e4] {
+  text-align: justify;
+  padding: 1em;
+  padding-left: 0.6em;
+  word-break: break-word;
+  border-radius: 1.5em;
+  background: #f0f8ff0a;
+  border-top-left-radius: 0;
+}
+.message-text-user[data-v-667886e4] {
+  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+  white-space: pre-wrap;
+}
+.ai-image[data-v-667886e4] {
+  align-items: center;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+}

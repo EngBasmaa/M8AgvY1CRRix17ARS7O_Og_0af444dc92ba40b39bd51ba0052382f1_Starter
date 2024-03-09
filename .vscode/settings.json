@@ -1,0 +1,6 @@
+{
+    "wrap-console-log.autoFormat": true,
+    "python.analysis.autoFormatStrings": true,
+    "files.autoSaveWhenNoErrors": true,
+    "files.autoSave": "onFocusChange"
+}

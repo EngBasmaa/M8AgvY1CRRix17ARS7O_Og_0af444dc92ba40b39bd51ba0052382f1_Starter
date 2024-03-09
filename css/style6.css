@@ -1,0 +1,50 @@
+.send-box[data-v-80486f62] {
+  display: grid;
+  grid-template-columns: 2em 1fr 4em;
+  grid-gap: 10px;
+  margin-bottom: 1em;
+}
+.message-input[data-v-80486f62] {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background: #282929;
+  color: #fff;
+  resize: vertical;
+  font-size: 1em;
+  min-height: 1.5em;
+  font-family: Kanit, sans-serif;
+}
+.message-input[data-v-80486f62]::-webkit-scrollbar {
+  width: 5px;
+}
+.message-input[data-v-80486f62]::-webkit-scrollbar-track {
+  background-color: #494949;
+}
+.message-input[data-v-80486f62]::-webkit-scrollbar-thumb {
+  box-shadow: 0 0 2px #000;
+  background: #888888e8;
+}
+.trash-svg[data-v-80486f62] {
+  width: 2em;
+  stroke: #fff;
+}
+.trash-svg[data-v-80486f62]:hover {
+  stroke: red;
+}
+.send-svg[data-v-80486f62] {
+  width: 1.5em;
+  fill: #fff;
+  margin: auto;
+}
+.send-icon[data-v-80486f62] {
+  border-radius: 50%;
+  background-color: #404040;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
